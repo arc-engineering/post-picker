@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# JS pre-commit checks
+yarn format
+yarn lint:css
+yarn lint:js
+yarn test:js:unit
+yarn lint:md:docs
+yarn lint:pkg-json
+
+# PHP pre-commit checks
+composer normalize
+composer validate
+composer lint:fix
+composer lint
+composer phpstan
+composer phpmd
+composer test:unit
