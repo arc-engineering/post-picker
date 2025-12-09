@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Post\\Picker\\": "inc"
+        },
+		"classmap": [
+			"inc/"
+		]
+    }
+}
