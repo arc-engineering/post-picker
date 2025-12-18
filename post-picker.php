@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Post picker
+ * Plugin Name: Post picker 
  * Plugin URI:  https://www.linkedin.com/in/edwil-j-jonas/
  * Description: Post picker for post types
  * Author:      Edwil Jonas

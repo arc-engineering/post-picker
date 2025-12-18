@@ -6,6 +6,17 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
+.wp-block-block-post-picker {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+.wp-block-block-post-picker p {
+  margin: 0;
+  padding: 0;
+}
+
 .post-picker-container {
   max-width: 1200px;
   margin: 0 auto;

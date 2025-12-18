@@ -30,5 +30,6 @@
 			"type": "string",
 			"default": "#007cba"
 		}
-	}
+	},
+	"render": "file:./src/render.php"
 }

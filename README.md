@@ -16,7 +16,7 @@ echo '5 - 6 hours';
 docker ps
 
 // Insert the docker container
-docker exec -it {docker-container-id} /bin/bash
+docker exec -it faa0b3308787 /bin/bash
 
 // WP Cli Command  --date-after?:YYYY-MM-DD --date-before?:YYYY-MM-DD --batch-size?:10 --post-type?:type --block-name?:block/post-picker
 wp --allow-root dmg-read-more search --batch-size=10 --post-type=article --date-after=2025-01-01 --date-before=2025-02-04  --block-name=block/post-picker
